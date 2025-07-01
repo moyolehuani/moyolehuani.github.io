@@ -1,10 +1,10 @@
 # Site
 name: 'AriMeiMei'
 description: 'Welcome to my blog.'
-logo: 'assets/images/happy.gif'
+#logo: 'assets/images/'
 favicon: 'assets/images/happy.gif'
 baseurl: ''
-avatar: 'assets/images/maomaome.jpg'
+avatar: 'assets/images/happy.gif'
 disqus: ''
 email: 'margarivarbau@gmail.com'
 
