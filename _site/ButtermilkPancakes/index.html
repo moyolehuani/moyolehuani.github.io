@@ -4,23 +4,26 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">    
-    <title>Privacy Policy | AriMeiMei</title>
+    <title>Buttermilk Pancakes with Blueberry Lavender Compote | AriMeiMei</title>
     
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Privacy Policy | AriMeiMei</title>
+<title>Buttermilk Pancakes with Blueberry Lavender Compote | AriMeiMei</title>
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="Privacy Policy" />
+<meta property="og:title" content="Buttermilk Pancakes with Blueberry Lavender Compote" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Welcome to my blog." />
 <meta property="og:description" content="Welcome to my blog." />
-<link rel="canonical" href="http://localhost:4000/privacy-policy.html" />
-<meta property="og:url" content="http://localhost:4000/privacy-policy.html" />
+<link rel="canonical" href="http://localhost:4000/ButtermilkPancakes/" />
+<meta property="og:url" content="http://localhost:4000/ButtermilkPancakes/" />
 <meta property="og:site_name" content="AriMeiMei" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Privacy Policy" />
+<meta property="og:image" content="http://localhost:4000/assets/images/pancakes2.jpeg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-10-31T00:00:00-06:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/images/pancakes2.jpeg" />
+<meta property="twitter:title" content="Buttermilk Pancakes with Blueberry Lavender Compote" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Welcome to my blog.","headline":"Privacy Policy","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/happy.gif"}},"url":"http://localhost:4000/privacy-policy.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-10-31T00:00:00-06:00","datePublished":"2022-10-31T00:00:00-06:00","description":"Welcome to my blog.","headline":"Buttermilk Pancakes with Blueberry Lavender Compote","image":"http://localhost:4000/assets/images/pancakes2.jpeg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/ButtermilkPancakes/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/happy.gif"}},"url":"http://localhost:4000/ButtermilkPancakes/"}</script>
 <!-- End Jekyll SEO tag -->
 
     
@@ -67,22 +70,22 @@ var documents = [{
     "id": 1,
     "url": "http://localhost:4000/categories.html",
     "title": "Categories",
-    "body": "        Categories                                  recipe (1)         AI Generated (1)         SpyXFamily (1)         Anime Post (1)                                # recipe:                                                                           More                                     recipe                            AI Generated                                                                Buttermilk Pancakes with Blueberry Lavender Compote:                                                                                              # AI Generated:                                                                           More                                     recipe                            AI Generated                                                                Buttermilk Pancakes with Blueberry Lavender Compote:                                                                                              # SpyXFamily:                                                                           More                                     SpyXFamily                            Anime Post                                                                Yor:                                                                                              # Anime Post:                                                                           More                                     SpyXFamily                            Anime Post                                                                Yor:                                                                                            "
+    "body": "        Categories          {% include menu-categories. html %}          {% for category in site. categories %}       # {{ category[0] }}:         {% assign pages_list = category[1] %}    {% for post in pages_list %}     {% if post. title != null %}       {% if group == null or group == post. group %}        {% include card-post. html %}       {% endif %}     {% endif %}    {% endfor %}    {% assign pages_list = nil %}    {% assign group = nil %}  {% endfor %}    "
     }, {
     "id": 2,
     "url": "http://localhost:4000/contact.html",
     "title": "Contact",
-    "body": "  Please send your message to AriMeiMei. We will reply as soon as possible!   "
+    "body": "  Please send your message to {{site. name}}. We will reply as soon as possible!   "
     }, {
     "id": 3,
     "url": "http://localhost:4000/",
     "title": "Pintereso Free Jekyll Theme",
-    "body": "        Explore                                  recipe (1)         AI Generated (1)         SpyXFamily (1)         Anime Post (1)                                                                                   More                                     recipe                            AI Generated                                                                Buttermilk Pancakes with Blueberry Lavender Compote:                                                                                                                  More                                     SpyXFamily                            Anime Post                                                                Yor:                                                                                          "
+    "body": "        Explore          {% include menu-categories. html %}                    {% for post in paginator. posts reversed %}      {% include card-post. html %}    {% endfor %}                 {% if paginator. total_pages &gt; 1 %}          {% if paginator. previous_page %}      &laquo; Prev     {% else %}      &laquo; Prev     {% endif %}     {% for page in (1. . paginator. total_pages) %}      {% if page == paginator. page %}       {{ page }}      {% elsif page == 1 %}       {{ page }}      {% else %}       {{ page }}      {% endif %}     {% endfor %}     {% if paginator. next_page %}      Next &raquo;     {% else %}      Next &raquo;     {% endif %}        {% endif %}        "
     }, {
     "id": 4,
     "url": "http://localhost:4000/privacy-policy.html",
     "title": "Privacy Policy",
-    "body": "“AriMeiMei” takes your privacy seriously. To better protect your privacy we provide this privacy policy notice explaining the way your personal information is collected and used. Collection of Routine Information: This website track basic information about their visitors. This information includes, but is not limited to, IP addresses, browser details, timestamps and referring pages. None of this information can personally identify specific visitor to this website. The information is tracked for routine administration and maintenance purposes. Cookies: Where necessary, this website uses cookies to store information about a visitor’s preferences and history in order to better serve the visitor and/or present the visitor with customized content. Advertisement and Other Third Parties: Advertising partners and other third parties may use cookies, scripts and/or web beacons to track visitor activities on this website in order to display advertisements and other useful information. Such tracking is done directly by the third parties through their own servers and is subject to their own privacy policies. This website has no access or control over these cookies, scripts and/or web beacons that may be used by third parties. Learn how to opt out of Google’s cookie usage. Links to Third Party Websites: We have included links on this website for your use and reference. We are not responsible for the privacy policies on these websites. You should be aware that the privacy policies of these websites may differ from our own. Security: The security of your personal information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security. Changes To This Privacy Policy: This Privacy Policy is effective and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page. We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our website. Contact Information: For any questions or concerns regarding the privacy policy, please contact us here. "
+    "body": "”{{site. name}}” takes your privacy seriously. To better protect your privacy we provide this privacy policy notice explaining the way your personal information is collected and used. Collection of Routine Information: This website track basic information about their visitors. This information includes, but is not limited to, IP addresses, browser details, timestamps and referring pages. None of this information can personally identify specific visitor to this website. The information is tracked for routine administration and maintenance purposes. Cookies: Where necessary, this website uses cookies to store information about a visitor’s preferences and history in order to better serve the visitor and/or present the visitor with customized content. Advertisement and Other Third Parties: Advertising partners and other third parties may use cookies, scripts and/or web beacons to track visitor activities on this website in order to display advertisements and other useful information. Such tracking is done directly by the third parties through their own servers and is subject to their own privacy policies. This website has no access or control over these cookies, scripts and/or web beacons that may be used by third parties. Learn how to opt out of Google’s cookie usage. Links to Third Party Websites: We have included links on this website for your use and reference. We are not responsible for the privacy policies on these websites. You should be aware that the privacy policies of these websites may differ from our own. Security: The security of your personal information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security. Changes To This Privacy Policy: This Privacy Policy is effective and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page. We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our website. Contact Information: For any questions or concerns regarding the privacy policy, please contact us here. "
     }, {
     "id": 5,
     "url": "http://localhost:4000/robots.txt",
@@ -195,67 +198,115 @@ function lunr_search(term) {
     </div>
     
     <main role="main">        
-        <section class="bg-gray200 pt-5 pb-5">
-    
+        <section class="bg-gray200 pt-5 pb-5">    
     <div class="container">
-        
     	<div class="row justify-content-center">
-            
     		<div class="col-md-8">
                 
     			<article class="card">
-
+                    
+                  
+                    <span class="pinme">
+                        <a data-pin-do="buttonPin" data-pin-tall="true" href="https://www.pinterest.com/pin/create/button/?url=http://localhost:4000/ButtermilkPancakes/&media=http://localhost:4000//assets/images/pancakes2.jpeg&description=Buttermilk Pancakes with Blueberry Lavender Compote- Receta Generada por Copy.ai Nota: Al chile no revisé la receta, estoy tomando un curso de Data Science de CISCO donde se me obligó a..."></a>
+                    </span>
+                    <img class="card-img-top mb-2" src="http://localhost:4000/assets/images/pancakes2.jpeg" alt="Buttermilk Pancakes with Blueberry Lavender Compote"> 
+                
+                    
+    			<div class="card-body">
+                    
+    				<h1 class="display-4">
+    				    Buttermilk Pancakes with Blueberry Lavender Compote 
+                    </h1>                    
                      
+                    <small class="text-muted d-block mb-3">
+                         
+                            October 31, 2022 
+                        
+                        
+                    </small>                    
+                    
+    				<p><img src="/assets/images/pancakes1.jpeg" /></p>
 
-                    <div class="card-body">
+<p><em>Receta Generada por Copy.ai</em></p>
 
-                        <h1 class="display-4">
-                            Privacy Policy 
-                        </h1>
+<p><strong><em>Nota:</em></strong> <em>Al chile no revisé la receta, estoy tomando un curso de Data Science de CISCO donde se me obligó a aprender a usar esta plataforma, que por cierto odié. Pero quiero guardar esta receta por si acaso. Aunque Chance le pida a ChatGPT que me la haga más chida, porque la siento bien escuálida.</em></p>
 
-                        <p>“AriMeiMei” takes your privacy seriously. To better protect your privacy we provide this privacy policy notice explaining the way your personal information is collected and used.</p>
+<p>En el día de hoy, les traigo una receta que combina la elegancia de la lavanda, la dulzura de los arándanos y la suavidad de la mantequilla de arce. ¡Un verdadero festín para el paladar de aquellos que disfrutan de la cocina y la estética cottagecore con un toque soft goth o grunge girl nonbinary! Esta creación será un verdadero deleite para los amantes de las matemáticas que disfrutan de la simplicidad y la precisión tanto en el ámbito culinario como en el matemático.</p>
 
-<h4 id="collection-of-routine-information">Collection of Routine Information</h4>
+<p>Today, I bring you a recipe that combines the elegance of lavender, the sweetness of blueberries, and the softness of maple butter. A true feast for the palate of those who enjoy cottagecore aesthetics with a touch of soft goth or grunge girl nonbinary! This creation will be a real delight for mathematics lovers who enjoy simplicity and precision both in the culinary and mathematical fields.</p>
 
-<p>This website track basic information about their visitors. This information includes, but is not limited to, IP addresses, browser details, timestamps and referring pages. None of this information can personally identify specific visitor to this website. The information is tracked for routine administration and maintenance purposes.</p>
+<h3 id="ingredientes--ingredients">Ingredientes / Ingredients:</h3>
+<ul>
+  <li>1 taza de harina común / 1 cup all-purpose flour</li>
+  <li>1 cucharada de azúcar / 1 tablespoon sugar</li>
+  <li>1 cucharadita de polvo de hornear / 1 teaspoon baking powder</li>
+  <li>1/2 cucharadita de bicarbonato de sodio / 1/2 teaspoon baking soda</li>
+  <li>1 huevo grande / 1 large egg</li>
+  <li>1 taza de buttermilk / 1 cup buttermilk</li>
+  <li>1 cucharada de mantequilla derretida / 1 tablespoon melted butter</li>
+  <li>Arándanos y lavanda fresca para la compota / Blueberries and fresh lavender for the compote</li>
+  <li>Mantequilla de arce y miel de brezo local para servir / Maple butter and local heather honey for topping</li>
+</ul>
 
-<h4 id="cookies">Cookies</h4>
+<h3 id="instrucciones--instructions">Instrucciones / Instructions:</h3>
 
-<p>Where necessary, this website uses cookies to store information about a visitor’s preferences and history in order to better serve the visitor and/or present the visitor with customized content.</p>
+<ol>
+  <li>Mezclar la harina, el azúcar, el polvo de hornear y el bicarbonato de sodio en un tazón grande. / Mix the flour, sugar, baking powder, and baking soda in a large bowl.</li>
+  <li>Agregar el huevo, el buttermilk y la mantequilla derretida a la mezcla seca y revolver hasta que estén combinados. / Add the egg, buttermilk, and melted butter to the dry mixture and stir until combined.</li>
+  <li>Calentar una sartén antiadherente a fuego medio y verter un poco de masa para formar los pancakes. / Heat a non-stick skillet over medium heat and pour some batter to form the pancakes.</li>
+  <li>Cocinar los pancakes por unos minutos hasta que aparezcan burbujas en la superficie, luego voltear y cocinar por otros minutos. / Cook the pancakes for a few minutes until bubbles appear on the surface, then flip and cook for another few minutes.</li>
+  <li>Para la compota de arándanos y lavanda, cocinar los arándanos con la lavanda en una olla con un poco de agua y azúcar hasta obtener una consistencia espesa. / For the blueberry lavender compote, cook the blueberries with lavender in a pot with some water and sugar until it reaches a thick consistency.</li>
+  <li>Servir los pancakes cubiertos con la compota de arándanos y lavanda, una cucharada de mantequilla de arce y un chorrito de miel de brezo local. / Serve the pancakes topped with the blueberry lavender compote, a dollop of maple butter, and a drizzle of local heather honey.</li>
+</ol>
 
-<h4 id="advertisement-and-other-third-parties">Advertisement and Other Third Parties</h4>
+<p>¡Espero que disfruten de esta deliciosa combinación de sabores en un ambiente que combina la dulzura de lo cottagecore con la elegancia de la lavanda y un toque de soft goth o grunge girl nonbinary! ¡Bon appétit! / I hope you enjoy this delicious combination of flavors in an environment that combines the sweetness of cottagecore with the elegance of lavender and a touch of soft goth or grunge girl nonbinary! Bon appétit!</p>
 
-<p>Advertising partners and other third parties may use cookies, scripts and/or web beacons to track visitor activities on this website in order to display advertisements and other useful information. Such tracking is done directly by the third parties through their own servers and is subject to their own privacy policies. This website has no access or control over these cookies, scripts and/or web beacons that may be used by third parties. Learn how to <a href="http://www.google.com/privacy_ads.html">opt out of Google’s cookie usage</a>.</p>
+                    
+                    
+                    
+                    
+                      <a class="btn btn-sm btn-primary mt-2" href="/categories.html#recipe">
+                        # recipe
+                      </a>
+                    
+                      <a class="btn btn-sm btn-primary mt-2" href="/categories.html#ai generated">
+                        # ai generated
+                      </a>
+                    
+                    
+    				<!--  Don't edit anything here. Set your disqus id in _config.yml -->
 
-<h4 id="links-to-third-party-websites">Links to Third Party Websites</h4>
-
-<p>We have included links on this website for your use and reference. We are not responsible for the privacy policies on these websites. You should be aware that the privacy policies of these websites may differ from our own.</p>
-
-<h4 id="security">Security</h4>
-
-<p>The security of your personal information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security.</p>
-
-<h4 id="changes-to-this-privacy-policy">Changes To This Privacy Policy</h4>
-
-<p>This Privacy Policy is effective and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.</p>
-
-<p>We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our website.</p>
-
-<h4 id="contact-information">Contact Information</h4>
-
-<p>For any questions or concerns regarding the privacy policy, please <a href="/contact.html">contact us here</a>.</p>
-
-
-                    </div>  
+<div id="comments" class="mt-5">
+    <div id="disqus_thread">
+    </div>
+    <script type="text/javascript">
+        var disqus_shortname = ''; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>
+    Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+</div>
+                    
+    			</div>  
                     
     			</article>
                 
+                <div class="PageNavigation">
+                  
+                    <a class="prev" href="/Yor/"><i class="fa fa-angle-left"></i> </a>
+                  
+                  
+                </div>
+                
     		</div>
-            
     	</div>
-        
     </div>
-    
 </section>        
     </main>
     
