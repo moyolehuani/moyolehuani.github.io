@@ -15,6 +15,7 @@ Here are some of the things I probably will share:
 - my resume (probably)
 - math
 - code snippets
+- social justice stuff
 
 **Things I Aspire to Be/Do**
 
