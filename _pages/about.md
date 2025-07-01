@@ -1,35 +1,29 @@
 ---
 title: "About"
 permalink: "/about.html"
-image: "/assets/images/screenshot.jpg"
+image: "/assets/images/pim.jpeg"
 ---
 
-Hi, guys! The website you are previewing is a demonstration for Pintereso Jekyll theme and it is hosted on Github pages. There are various ways you can use Pintereso with your Jekyll website. Here are some of them:
+Hey, this is my blog. I don't fully know what to put in here or how much I wish to share about me, but I've always loved blogging and such.
 
-- blogging
-- curated resources
-- affiliate marketing
-- resume
-- portfolio
-- photography
+Here are some of the things I probably will share:
 
-**Features**
+- my life
+- anime/manga/books/series reviews
+- makeup reviews
+- cooking recipes
+- my resume (probably)
+- math
+- code snippets
 
-- 100% Github Pages Compatibility
-- Bootstrap 4.x
-- SEO Integration
-- Search
-- Categories
-- Prev/Next Post
-- Pagination
-- Disqus Comments
-- Sitemap
-- Feed
-- Formspree Contact Form
-- Pinterest, AddThis, Google Analytics
-- Font Awesome 5+
-- Cookie Consent & Privacy Policy
+**Things I Aspire to Be/Do**
 
-Made with <i class="fa fa-heart text-danger"></i> by Sal @wowthemesnet. Thanks for your <a target="_blank" href="https://www.wowthemes.net/freebies-license/">support</a>!
+- A Mathematician
+- Comparative Mythology
+- Read tons of books
+- Have a successful makeup blog with the related social media
+- A functional adult
+- A Ñoldorín liquidator in Middle-Earth Chernobyl
+- Get a hold of my crippling ADHD
 
-<a class="btn btn-danger" href="https://github.com/wowthemesnet/template-pintereso-bootstrap-jekyll/archive/master.zip"><i class="fa fa-download"></i> pintereso.zip</a> <a target="_blank" class="btn btn-warning" href="https://www.wowthemes.net/donate/"><i class="fa fa-coffee"></i> Buy me a coffee?</a>
+Made with <i class="fa fa-heart text-danger"></i> by me, with the help of a Jekyll Template listed below.
